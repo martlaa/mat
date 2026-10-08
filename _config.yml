@@ -1,7 +1,7 @@
 title: Koolimatemaatika
-description: Matemaatika õpetamise, õppimise ja uurimise kohtumispaik.
-url: "https://mat.opetaja.ee"
-baseurl: ""
+description: Matemaatika õpetamise, õpetajakoolituse ja uurimise kohtumispaik.
+url: "https://martlaa.github.io"
+baseurl: "/mat"
 lang: et
 timezone: Europe/Tallinn
 markdown: kramdown
