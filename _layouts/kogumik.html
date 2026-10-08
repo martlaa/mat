@@ -1,0 +1,9 @@
+---
+layout: page
+---
+<div class="publication">
+<img class="cover" src="{{ page.cover | default: '/assets/images/cover-placeholder.svg' | relative_url }}" alt="{{ page.title | escape }} — kaanepilt">
+<div><p>{{ page.year }}{% if page.editors %} · Toimetajad: {{ page.editors | escape }}{% endif %}</p>
+{{ content }}
+{% if page.pdf_url and page.pdf_url != '' %}<a class="button" href="{{ page.pdf_url | relative_url }}">Ava kogumik (PDF)</a>{% else %}<p class="notice">Näidiskirje. PDF lisatakse pärast avaldamisloa ja faili kontrollimist.</p>{% endif %}
+</div></div>

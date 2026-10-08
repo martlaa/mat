@@ -1,0 +1,4 @@
+<div class="cards">
+{% assign issues = site.kogumikud | sort: 'year' | reverse %}
+{% for issue in issues %}<article class="card issue"><a href="{{ issue.url | relative_url }}"><img class="cover" src="{{ issue.cover | default: '/assets/images/cover-placeholder.svg' | relative_url }}" alt="{{ issue.title | escape }} — kaanepilt"><h3>{{ issue.title | escape }}</h3></a><p>{{ issue.description | escape }}</p>{% if issue.sample %}<span class="badge">Näidiskirje</span>{% endif %}</article>{% endfor %}
+</div>

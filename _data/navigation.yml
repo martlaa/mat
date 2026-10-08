@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Avaleht",
+    "url": "/",
+    "children": []
+  },
+  {
+    "title": "Õpetajakoolitus",
+    "url": "/opetajakoolitus/",
+    "children": [
+      {
+        "title": "Magistriõpe",
+        "url": "/opetajakoolitus/magistriope/"
+      },
+      {
+        "title": "Täienduskoolitus",
+        "url": "/opetajakoolitus/taienduskoolitus/"
+      }
+    ]
+  },
+  {
+    "title": "Artiklid",
+    "url": "/artiklid/",
+    "children": [
+      {
+        "title": "Koolimatemaatika kogumik",
+        "url": "/artiklid/koolimatemaatika/"
+      },
+      {
+        "title": "EHA artiklid",
+        "url": "/artiklid/eha/"
+      },
+      {
+        "title": "Muud",
+        "url": "/artiklid/muud/"
+      }
+    ]
+  },
+  {
+    "title": "Projektid",
+    "url": "/projektid/",
+    "children": [
+      {
+        "title": "LAHEMATE",
+        "url": "/projektid/lahemate/"
+      },
+      {
+        "title": "Mõtlemine nähtavaks",
+        "url": "/projektid/motlemine-nahtavaks/"
+      }
+    ]
+  },
+  {
+    "title": "Inimesed",
+    "url": "/inimesed/",
+    "children": [
+      {
+        "title": "Tiina Kraav",
+        "url": "/inimesed/tiina-kraav/"
+      },
+      {
+        "title": "Kerli Orav-Puurand",
+        "url": "/inimesed/kerli-orav-puurand/"
+      },
+      {
+        "title": "Sirje Pihlap",
+        "url": "/inimesed/sirje-pihlap/"
+      },
+      {
+        "title": "Hannes Jukk",
+        "url": "/inimesed/hannes-jukk/"
+      },
+      {
+        "title": "Jüri Kurvits",
+        "url": "/inimesed/juri-kurvits/"
+      },
+      {
+        "title": "Annika Volt",
+        "url": "/inimesed/annika-volt/"
+      },
+      {
+        "title": "Kristin Parve",
+        "url": "/inimesed/kristin-parve/"
+      },
+      {
+        "title": "Mart Laanpere",
+        "url": "/inimesed/mart-laanpere/"
+      }
+    ]
+  },
+  {
+    "title": "Sündmused",
+    "url": "/sundmused/",
+    "children": [
+      {
+        "title": "KMÜ",
+        "url": "/sundmused/kmu/"
+      },
+      {
+        "title": "konverentsid",
+        "url": "/sundmused/konverentsid/"
+      },
+      {
+        "title": "seminarid",
+        "url": "/sundmused/seminarid/"
+      },
+      {
+        "title": "võistlused",
+        "url": "/sundmused/voistlused/"
+      }
+    ]
+  },
+  {
+    "title": "Lõputööd",
+    "url": "/loputood/",
+    "children": [
+      {
+        "title": "Tartu ülikool",
+        "url": "/loputood/tartu-ulikool/"
+      },
+      {
+        "title": "Tallinna ülikool",
+        "url": "/loputood/tallinna-ulikool/"
+      }
+    ]
+  },
+  {
+    "title": "Kontakt",
+    "url": "/kontakt/",
+    "children": []
+  }
+]

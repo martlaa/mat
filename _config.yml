@@ -1,0 +1,28 @@
+title: Koolimatemaatika
+description: Matemaatika õpetamise, õppimise ja uurimise kohtumispaik.
+url: "https://mat.opetaja.ee"
+baseurl: ""
+lang: et
+timezone: Europe/Tallinn
+markdown: kramdown
+permalink: pretty
+collections:
+  kogumikud:
+    output: true
+    permalink: /artiklid/koolimatemaatika/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: kogumikud
+    values:
+      layout: kogumik
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

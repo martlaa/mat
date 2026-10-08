@@ -1,0 +1,12 @@
+<nav class="wrap navigation" aria-label="Peamenüü">
+{% for item in site.data.navigation %}
+  {% if item.children.size > 0 %}
+  <details class="nav-group"{% if page.url contains item.url %} data-active="true"{% endif %}>
+    <summary>{{ item.title | escape }}</summary>
+    <ul><li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>Ülevaade</a></li>
+      {% for child in item.children %}<li><a href="{{ child.url | relative_url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title | escape }}</a></li>{% endfor %}
+    </ul>
+  </details>
+  {% else %}<a class="nav-link" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>{% endif %}
+{% endfor %}
+</nav>

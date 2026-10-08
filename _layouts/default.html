@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#sisu">Liigu sisu juurde</a>
+<header class="header"><div class="wrap brand-row"><a class="brand" href="{{ '/' | relative_url }}"><span class="symbol" aria-hidden="true">∑</span> Koolimatemaatika</a><span class="tagline">Õpetame. Uurime. Jagame.</span></div>
+{% include navigation.html %}</header>
+<main id="sisu" class="wrap" tabindex="-1">{{ content }}</main>
+<footer class="wrap footer"><p>Koolimatemaatika · Matemaatikahariduse ühine teadmistekogu</p><a href="{{ '/kontakt/' | relative_url }}">Kontakt ja kaastöö</a></footer>
+</body></html>
