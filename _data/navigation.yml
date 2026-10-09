@@ -125,6 +125,20 @@
     ]
   },
   {
+    "title": "Arhiiv",
+    "url": "/arhiiv/",
+    "children": [
+      {
+        "title": "Projektid",
+        "url": "/arhiiv/projektid/"
+      },
+      {
+        "title": "Materjalid",
+        "url": "/arhiiv/materjalid/"
+      }
+    ]
+  },
+  {
     "title": "Kontakt",
     "url": "/kontakt/",
     "children": []
